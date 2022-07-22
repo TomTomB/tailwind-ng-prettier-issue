@@ -2,7 +2,7 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "npmScope": "prettier-tailwind-issue",
   "affected": {
-    "defaultBase": "master"
+    "defaultBase": "main"
   },
   "cli": {
     "packageManager": "npm"
