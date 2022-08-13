@@ -1,15 +1,5 @@
-<a
-  title="Details"
-  [routerLink]="['/', 'things', some.thing]"
-  [ngClass]="{
-    '!text-abc !border-abc':
-      ('/c/' + some.thing | urlPipe: { option: true } | async) &&
-      stuff === 'foo',
-    '!text-def !border-def':
-      ('/c/' + some.thing | urlPipe: { option: true } | async) &&
-      stuff === 'bar'
-  }" 
+<span
+[ngClass]="{'!text-gray-600': foo && bar?.[foo.bar.baz]}"
+class="text-xs font-medium leading-[167%] tracking-wider text-white"
 >
-  Details 
-</a>
- 
+</span>
